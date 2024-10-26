@@ -5,6 +5,14 @@ Dazu werden auch Übliche Python Befehle und die Syntax aufgelistet.
 
 ## Grundsätze:
 
+```{sidebar} Git-Repository:
+:class: note
+Diese Seite hat ein
+[Git-Repository](https://github.com/LuMaaAstro/Jupyter-Python-Markdown-Webseite).
+Das bedeutet das ihr originalen Jupyter-Notebook Dateien euch runterladen könnt und auch selber Sachen ergänzen könnt wenn ihr wollt.
+Auch gibt es dort die Möglichkeit Issues zu eröffnen also Vorschläge wie was besser gemacht werden kann, bzw Probleme die ihr habt.
+```
+
 Allgemein sollte man sich an folgende Grundsätze in halten:
 
 1. haltets einfach, aber nicht dumm.
@@ -23,6 +31,7 @@ Die oberen Grundsätze gelten für Python aus den selben gründen wie bei Markdo
 Es macht also keinen Sinn den Code unnötig zu verkomplizieren.
 Die 5. Regel ist aber sinnvoll, da wenn ihr eure Funktionen sinnvoll bezeichnet, verbessert das die Leserlichkeit des Codes.
 Das selbe gilt auch für wiederholungen wenn ein Code immer wieder verwendet wird und sich nur die Indizes verändern, ist es sinnvoll über eine Schleife nachzudenken.
+
 
 
 

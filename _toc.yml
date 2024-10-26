@@ -16,5 +16,9 @@ parts:
     - file: Sympy_Einführung  
     - file: Matplotlib_Beispiele
 
-- chapters:
+- caption: Anhang 
+  chapters:
     - file: Nachwort
+    - file: Git-Repository
+    - file: SicherheitimInternet
+    
