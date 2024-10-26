@@ -1,0 +1,20 @@
+# In _toc.yml
+format: jb-book
+root: intro
+parts:
+- caption: Text Formatierung
+  chapters:
+    - file: Markdown_Allgemein
+    - file: html_allgemein
+    - file: Mathe_allgemein
+
+- caption: Python
+  chapters:
+    - file: Python_allgemein
+    - file: Matplotlib_Einführung
+    - file: Numpy_Einführung
+    - file: Sympy_Einführung  
+    - file: Matplotlib_Beispiele
+
+- chapters:
+    - file: Nachwort
