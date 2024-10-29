@@ -1,3 +1,38 @@
+<style>
+    .gallery-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+}
+
+.gallery-item {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #333;
+  color: #d9d9d9;
+  scroll-snap-align: center;
+}
+@media screen and (min-width: 800px) {
+  .gallery-scroll {
+    flex-wrap: nowrap;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .gallery-item {
+    scroll-snap-align: start;
+  }
+}
+</style>
+
+
 # Einführung
 
 Auf dieser Website findet ihr einige Grundlagen wie ihr mit Hilfe von Markdown Text formatieren könnt. Dabei sind hier nur die wichtigsten Befehle aufgeführt (ohne Gewähr).
@@ -35,3 +70,55 @@ Das selbe gilt auch für wiederholungen wenn ein Code immer wieder verwendet wir
 
 
 
+## Kapitel Übersicht:
+
+<div class="gallery-scroll">
+    <figure class="gallery-item">
+        <figcaption><h3>Mit Markdown anfangen</h3></figcaption>
+        <a href="Markdown_Allgemein.html">
+            <img width="200" height="100" src="Bilder/Mdown.jpg">
+        </a>
+    </figure> 
+    <figure class="gallery-item">
+        <figcaption><h3> Markdown für Fortgeschrittene </h3></figcaption>
+        <a href="html_allgemein.html">
+            <img width="100" height="100" src="Bilder/html_code.jpeg">
+        </a>
+    </figure>
+    <figure class="gallery-item">
+        <figcaption><h3>Mathe-Formeln schreiben</h3></figcaption>
+        <a href="Mathe_allgemein.html">
+            <img width="200" height="100" src="Bilder/LaTeX.png">
+        </a>
+    </figure>
+    <figure class="gallery-item">
+        <figcaption><h3>Python allgemeines:</h3></figcaption>
+        <a href="Python_allgemein.html" title="Hier gehts zum Python Kapitel">
+            <img width="100" height="100" src="Bilder/Python-logo.png">
+        </a>
+    </figure>
+    <figure class="gallery-item">
+        <figcaption><h3>Anfangen mit Plotten</h3></figcaption>
+        <a href="Matplotlib_Einführung.html">
+            <img width="200" height="100" src="Bilder/Matplotlib_figure.png">
+        </a>
+    </figure>
+    <figure class="gallery-item">
+        <figcaption><h3>Numerische Mathematik mit Numpy</h3></figcaption>
+        <a href="Numpy_Einführung.html">
+            <img width="200" height="100" src="Bilder/Numpy-logo.png">
+        </a>
+    </figure>
+    <figure class="gallery-item">
+    <figcaption><h3>Symbolische Mathematik:</h3></figcaption>
+    <a href="Sympy_Einführung.html">
+        <img width="100" height="100" src="Bilder/Sympy_logo.png">
+    </a>
+    </figure>
+    <figure class="gallery-item">
+        <figcaption><h3>Code Beispiele und Übungen:</h3></figcaption>
+        <a href="Matplotlib_Beispiele.html">
+            <img width="200" height="100" src="Bilder/Code_Beispiele.jpeg">
+        </a>
+    </figure>
+</div>
