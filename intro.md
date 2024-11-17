@@ -131,6 +131,12 @@ Das selbe gilt auch für wiederholungen wenn ein Code immer wieder verwendet wir
         <img width="150" height="150" src="Bilder/Sympy_logo.png">
         </a>
     </figure>
+    <figure>
+        <a href=Scripte-Verstehen.html>
+            <figcaption><h3>Programme Verstehen und Debuggen</h3></figcaption>
+            <!---<img src="Bilder/debugging.jpeg">--->
+        </a>
+    </figure>
     <figure class="gallery-item2">
         <a href="Matplotlib_Beispiele.html">
             <figcaption><h3>Code Beispiele und Übungen:</h3></figcaption>

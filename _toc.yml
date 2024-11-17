@@ -14,6 +14,7 @@ parts:
     - file: Matplotlib_Einführung
     - file: Numpy_Einführung
     - file: Sympy_Einführung  
+    - file: Scripte-Verstehen
     - file: Matplotlib_Beispiele
 
 - caption: Anhang 
